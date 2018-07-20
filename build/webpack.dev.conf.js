@@ -45,7 +45,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     },
     // add mock 
     before: function (app) {
-       app.use(require('../webpack/mock')())
+        app.use(require('../webpack/mock')())
     }
   },
   plugins: [
